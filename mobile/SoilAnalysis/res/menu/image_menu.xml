@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/image_source"
+          android:title="@string/image_source" >	
+        <menu>
+            <item android:id="@+id/image_source_camera"
+                  android:title="@string/image_source_camera" />
+            <item android:id="@+id/image_source_preview_builtin"
+                  android:title="@string/image_source_preview_builtin" />
+            <item android:id="@+id/image_source_preview_manual"
+                  android:title="@string/image_source_preview_manual" />
+            </menu>  
+    </item>
+    <!--
+    <item android:id="@+id/neutral_balance"
+          android:title="@string/neutral_balance" >
+        <menu>
+            <item android:id="@+id/neutral_balance_deltas"
+                  android:title="@string/neutral_balance_deltas"/>
+            <item android:id="@+id/neutral_balance_coefs"
+                  android:title="@string/neutral_balance_coefs"/>
+            </menu>
+    </item> 
+    -->
+    <item android:id="@+id/calibration_card"
+          android:title="@string/calibration_card" >
+        <menu>
+            <item android:id="@+id/calibration_card_whibal"
+                  android:title="@string/calibration_card_whibal"/>
+            <item android:id="@+id/calibration_card_generic18"
+                  android:title="@string/calibration_card_generic18"/>
+            </menu>
+    </item> 
+</menu>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/dialogResultSummary"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"/>
+        
+        <RelativeLayout 
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:gravity="center_horizontal">
+	            <TextView
+		            android:id="@+id/dialogMeasuredCalibrationColorSwatch"
+		         	android:layout_width="100dp"
+		        	android:layout_height="100dp"/>
+		 
+		        <TextView
+		            android:id="@+id/dialogAdjustedCalibrationColorSwatch"
+		            android:layout_toRightOf="@+id/dialogMeasuredCalibrationColorSwatch"
+		         	android:layout_width="100dp"
+		        	android:layout_height="100dp"/>
+		</RelativeLayout>
+		        
+        <RelativeLayout 
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:gravity="center_horizontal">
+        		<TextView
+		            android:id="@+id/dialogMeasuredSampleColorSwatch"
+		         	android:layout_width="100dp"
+		        	android:layout_height="100dp"/>
+		 
+		        <TextView
+		            android:id="@+id/dialogAdjustedSampleColorSwatch"
+		            android:layout_toRightOf="@+id/dialogMeasuredSampleColorSwatch"
+		         	android:layout_width="100dp"
+		        	android:layout_height="100dp"/>
+        </RelativeLayout>
+        
+    </LinearLayout>
+    
+
+</ScrollView>
